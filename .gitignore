@@ -1,0 +1,8 @@
+# don't care to keep a copy of the docopt generator, we git clone that as needed
+docopt.c/
+# nor the generated otuput of our usage text
+usage.c
+# ignore the build artifacts
+version.c
+hr
+hr.o
