@@ -1,18 +1,18 @@
 Draw a horizontal line.
 
 Usage:
-  hr [-h] [-o OPENING] [-r REPEAT] [-w WIDTH] [-c CLOSING] [-e ENDING]
+  hr [-h] [-o STRING] [-r STRING] [-w STRING] [-c STRING] [-e STRING]
   hr --help
   hr --version
 
 Options:
-  --help      Show this help.
-  --version   Show the program version.
-  -c CLOSING  The closing character(s) of the line. [default: *]
-  -e ENDING   The line ending character(s). [default: \n]
-  -o OPENING  The opening character(s) of the line. [default: *]
-  -r REPEAT   The character(s) to repeat as the body of the line. [default: -]
-  -w WIDTH    The total width of the line, excluding the ending character(s).
+  -h, --help                   Show this help!
+  --version                    Show the program version.
+  -c STRING, --closing STRING  The closing character(s) of the line. [default: *]
+  -e STRING, --ending STRING   The line ending character(s). [default: \n]
+  -o STRING, --opening STRING  The opening character(s) of the line. [default: *]
+  -r STRING, --repeat STRING   The character(s) to repeat as the body of the line. [default: -]
+  -w COUNT, --width COUNT      The total width of the line, excluding the ending character(s).
 
 Examples:
   [prompt] hr -o '/** ' -r '-+-' -w '22' -c ' */' -e '$'
