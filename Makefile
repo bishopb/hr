@@ -18,7 +18,7 @@ usage.c: docopt.c/docopt_c.py usage.txt
 
 # downloads the DocOpt Python C generator
 # @see https://github.com/docopt/docopt.c
-docopt.c:
+docopt.c/docopt_c.py:
 	rm -rf docopt.c
 	git clone https://github.com/docopt/docopt.c.git
 
